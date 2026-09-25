@@ -1,0 +1,107 @@
+[
+  {
+    "event_id": "st-001",
+    "kind": "MOTIF_PROPOSED",
+    "occurred_at": "2026-06-01T09:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "title": "云纹时代化图案", "origin_summary": "改编自馆藏清代织锦纹样" }
+  },
+  {
+    "event_id": "st-002",
+    "kind": "PROVENANCE_RECORDED",
+    "occurred_at": "2026-06-02T10:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "version": "pv1", "source_claim": "馆藏清代织锦（登记号 A-110）", "evidence_refs": ["archive-A-110"], "recorded_by": "researcher-lin" }
+  },
+  {
+    "event_id": "st-003",
+    "kind": "ADAPTATION_RECORDED",
+    "occurred_at": "2026-06-05T14:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "version": "av1", "changes_summary": "线条简化并适配四色印刷" }
+  },
+  {
+    "event_id": "st-004",
+    "kind": "COPY_RECORDED",
+    "occurred_at": "2026-06-06T11:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "version": "cv1", "locale": "zh-CN", "text_ref": "copy/yunwen-v1.md", "attribution_included": true }
+  },
+  {
+    "event_id": "st-005",
+    "kind": "CARRIER_RECORDED",
+    "occurred_at": "2026-06-07T09:30:00+08:00",
+    "subject_id": "carrier-box",
+    "payload": { "version": "cb1", "carrier_type": "paper-box" }
+  },
+  {
+    "event_id": "st-006",
+    "kind": "RIGHTS_CONDITION_SET",
+    "occurred_at": "2026-06-08T16:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "holder": "某博物馆", "valid_from": "2026-06-01", "valid_until": "2027-05-31", "attribution_required": true, "attribution_text": "纹样源自某博物馆馆藏", "prohibitions": [] }
+  },
+  {
+    "event_id": "st-007",
+    "kind": "REVIEW_OPINION_ADDED",
+    "occurred_at": "2026-06-10T10:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "opinion_id": "op-hq-cultural", "reviewer": "hq-culture-panel", "discipline": "cultural", "jurisdiction": "GLOBAL", "decision": "approve", "base_versions": { "provenance": "pv1", "adaptation": "av1", "copy": "cv1" } }
+  },
+  {
+    "event_id": "st-008",
+    "kind": "REVIEW_OPINION_ADDED",
+    "occurred_at": "2026-06-10T11:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "opinion_id": "op-hq-legal", "reviewer": "hq-legal", "discipline": "legal", "jurisdiction": "GLOBAL", "decision": "approve", "base_versions": { "provenance": "pv1", "adaptation": "av1" } }
+  },
+  {
+    "event_id": "st-009",
+    "kind": "RELEASE_PACKAGE_APPROVED",
+    "occurred_at": "2026-06-15T09:00:00+08:00",
+    "subject_id": "pkg-eu",
+    "payload": { "motif_id": "motif-yunwen", "market": "EU", "carrier_id": "carrier-box", "pinned_versions": { "provenance": "pv1", "adaptation": "av1", "copy": "cv1", "carrier": "cb1" }, "approval_chain": ["op-hq-cultural", "op-hq-legal"], "attribution_included": true }
+  },
+  {
+    "event_id": "st-010",
+    "kind": "RELEASE_PACKAGE_DELIVERED",
+    "occurred_at": "2026-06-20T09:00:00+08:00",
+    "subject_id": "pkg-eu",
+    "payload": { "channel": "retail-eu" }
+  },
+  {
+    "event_id": "st-011",
+    "kind": "RELEASE_PACKAGE_APPROVED",
+    "occurred_at": "2026-06-22T09:00:00+08:00",
+    "subject_id": "pkg-th",
+    "payload": { "motif_id": "motif-yunwen", "market": "TH", "carrier_id": "carrier-box", "scene": "alcohol", "pinned_versions": { "provenance": "pv1", "adaptation": "av1", "copy": "cv1", "carrier": "cb1" }, "approval_chain": ["op-hq-cultural", "op-hq-legal"], "attribution_included": true }
+  },
+  {
+    "event_id": "st-012",
+    "kind": "REVIEW_OPINION_ADDED",
+    "occurred_at": "2026-06-25T15:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "opinion_id": "op-th-cultural", "reviewer": "th-local-advisor", "discipline": "cultural", "jurisdiction": "TH", "decision": "reject", "base_versions": { "provenance": "pv1", "adaptation": "av1", "copy": "cv1" }, "notes": "该纹样在当地宗教场景中有特殊含义，不得用于酒类包装" }
+  },
+  {
+    "event_id": "st-013",
+    "kind": "RIGHTS_CONDITION_SET",
+    "occurred_at": "2026-06-26T10:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "holder": "某博物馆", "valid_from": "2026-06-01", "valid_until": "2026-12-31", "attribution_required": true, "attribution_text": "纹样源自某博物馆馆藏", "prohibitions": [ { "market": "TH", "scene": "alcohol", "reason": "当地顾问确认：宗教含义纹样禁用于酒类包装" } ] }
+  },
+  {
+    "event_id": "st-014",
+    "kind": "PROVENANCE_RECORDED",
+    "occurred_at": "2026-06-28T09:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "version": "pv2", "source_claim": "新证据显示纹样同时见于另一馆藏（登记号 B-220），来源归属待补证", "evidence_refs": ["archive-B-220"], "recorded_by": "researcher-lin", "contradicts_versions": ["pv1"] }
+  },
+  {
+    "event_id": "st-015",
+    "kind": "REVIEW_OPINION_ADDED",
+    "occurred_at": "2026-06-29T10:00:00+08:00",
+    "subject_id": "motif-yunwen",
+    "payload": { "opinion_id": "op-th-legal", "reviewer": "th-legal-counsel", "discipline": "legal", "jurisdiction": "TH", "decision": "conditional", "base_versions": { "provenance": "pv1" }, "conditions": ["禁止使用于酒类场景"] }
+  }
+]

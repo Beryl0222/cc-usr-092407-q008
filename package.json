@@ -5,7 +5,7 @@
   "type": "module",
   "description": "艺术元素时代化审校领域资料",
   "scripts": {
-    "build": "node --check src/art_motif_review.js && node --check tests/contract.test.js",
+    "build": "node --check src/art_motif_review.js && node --check src/governance.js && node --check tests/contract.test.js && node --check tests/governance.test.js",
     "test": "node --test"
   }
 }
