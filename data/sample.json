@@ -4,6 +4,8 @@
   "occurred_at": "2026-09-20T09:00:00+08:00",
   "subject_id": "demo-010",
   "payload": {
+    "motif_id": "demo-010",
+    "name": "虚构云雷纹（格式核对样例）",
     "note": "虚构资料，仅用于格式核对"
   }
 }
